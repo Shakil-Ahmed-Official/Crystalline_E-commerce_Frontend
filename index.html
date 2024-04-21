@@ -19,19 +19,49 @@
             </p>
         </div>
         <div class="search">
-
+            <select name="allItems" id="search__allItems">
+                <option value="all departments">All Departments</option>
+                <option value="arts & crafts">Arts & Crafts</option>
+                <option value="automotive">Automotive</option>
+                <option value="baby">Baby</option>
+                <option value="beauty & personal care">Beauty & Personal Care</option>
+                <option value="books">Books</option>
+            </select>
+            <input type="search" list="suggest---data" id="search__searchItems" placeholder="Search Crystalline">
+            <datalist id="suggest---data">
+                <option value="apple watch"></option>
+                <option value="iphone 15 pro max case"></option>
+                <option value="samsung galaxy s24 ultra"></option>
+                <option value="intel i9 14900k"></option>
+                <option value="nvidia graphics card"></option>
+                <option value="airconditioners for home"></option>
+            </datalist>
+            <button class="search__btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
         </div>
         <div class="lang">
-
+            <select id="lang__selectLang">
+                <option value="en">English - EN</option>
+                <option value="bn">Bangla - BN</option>
+                <option value="ar">العربية - AR</option>
+                <option value="ko">한국어 - KO</option>
+                <option value="zh">中文 (简体) - ZH</option>
+            </select>
         </div>
         <div class="account">
-
+            <button class="account__info">
+                Account & Lists
+            </button>
         </div>
         <div class="tracks">
-
+            <button class="tracks__btn">
+                Returns<br><span class="tracks__btn--bold">& Orders</span>
+            </button>
         </div>
         <div class="cart">
-
+            <i class="fa-solid fa-cart-shopping"></i>
+            <p class="cart__title">Cart</p>
         </div>
     </header>
 
