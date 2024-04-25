@@ -88,10 +88,12 @@ body{
 /* header style --- start */
 header{
     width: 100%;
-    height: 90px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-color: #131921;
+    color: #fff;
 }
 
 .logo{
@@ -112,5 +114,88 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.location__title{
+    font-size: 12px;
+}
+
+.location__title--bold{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.search{
+    font-size: 14px;
+    color: #000;
+}
+
+#search__allItems{
+    width: 130px;
+    height: 50px;
+}
+
+#search__searchItems{
+    width: 500px;
+    height: 50px;
+    padding: 8px;
+}
+
+.search__btn{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #f3a847;
+}
+
+.lang{
+    width: 40px;
+    height: 50px;
+}
+
+#lang__selectLang{
+    background-color: #131921;
+    width: 40px;
+    height: 50px;
+}
+
+.account{
+    font-size: 15px;
+    width: 100px;
+    height: 50px;
+    font-weight: bold;
+}
+
+.account__info{
+    color: #fff;
+    background-color: #131921;
+}
+
+.tracks{
+    width: 100px;
+    height: 50px;
+    font-size: 12px;
+}
+
+.tracks__btn{
+    color: #fff;
+    background-color: #131921;
+}
+
+.tracks__btn--bold{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.fa-cart-shopping{
+    font-size: 25px;
 }
 /* header style --- end */
